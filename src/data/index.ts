@@ -207,5 +207,5 @@ export const PROJECTS = [
       preview: ''
     },
     image: '/images/basement-challenge.png'
-  } 
+  }
 ]
