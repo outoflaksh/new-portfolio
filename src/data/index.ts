@@ -1,6 +1,5 @@
 import { GitHubIcon } from '@/components/icons/github'
 import { LinkedInIcon } from '@/components/icons/linkedin'
-import { XIcon } from '@/components/icons/x'
 import { CSSIcon } from '@/components/icons/tags/css'
 import { HTMLIcon } from '@/components/icons/tags/html'
 import { JavaScriptIcon } from '@/components/icons/tags/javascript'
@@ -188,6 +187,7 @@ export const PROJECTS = [
   {
     title: 'Porcupyne - OCR API',
     tags: [
+      TAGS.CSS
     ],
     description:
       'Image-to-text microservice to easily and effectively extract text from a given image. Built with Tesseract, FastAPI & Docker.',
