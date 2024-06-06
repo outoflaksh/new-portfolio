@@ -92,19 +92,20 @@ export function Hero() {
                 </a>
               </Button>
             </TooltipTrigger>
-            <ol className='relative border-s dark:border-neutral-600 border-neutral-400 ml-[11.5px] flex flex-col gap-y-8'>
-              {career.map((item, index) => (
-                <li key={index} className='ms-[30px]'>
-                  <CareerItem {...item} />
-                </li>
-              ))}
-            </ol>
+
             <TooltipContent side='bottom' className='md:hidden'>
               <p>{link.title}</p>
             </TooltipContent>
           </Tooltip>
         ))}
       </nav>
+      <ol className='relative border-s dark:border-neutral-600 border-neutral-400 ml-[11.5px] flex flex-col gap-y-8'>
+        {career.map((item, index) => (
+          <li key={index} className='ms-[30px]'>
+            <CareerItem {...item} />
+          </li>
+        ))}
+      </ol>
     </>
   )
 }
