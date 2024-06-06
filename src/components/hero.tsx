@@ -4,7 +4,6 @@ import { Button } from './ui/button'
 import { BadgeCheckIcon } from 'lucide-react'
 import { data } from '../constants'
 import { CareerItem } from './career-item'
-import { FileTextIcon } from 'lucide-react'
 
 export function Hero() {
   const { avatar, about, links, career } = data
