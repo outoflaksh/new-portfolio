@@ -27,7 +27,7 @@ export function Hero() {
 
       <div className='flex items-center flex-row gap-4'>
         <h1 className='flex dark:text-neutral-100 text-neutral-900 text-4xl font-bold text-balance'>
-          Emanuel Peire
+          Lakshya Malik
         </h1>
         <Button
           variant='default'
@@ -36,7 +36,7 @@ export function Hero() {
           asChild
         >
           <a
-            href='https://linkedin.com/in/emanuelpeire'
+            href='https://linkedin.com/in/lakshya-malik'
             target='_blank'
             rel='noopener noreferrer'
             className='hidden md:flex'
