@@ -31,7 +31,7 @@ export const AVATAR = {
 
 export const ABOUT = {
   title: 'Backend & ML Engineer',
-  description: 'Creating software that creatively solves problems.'
+  description: 'Software engineer by day, melancholic hopeless romantic by night'
 }
 
 export const LINKS = [
